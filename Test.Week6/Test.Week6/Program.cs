@@ -6,7 +6,11 @@ namespace Test.Week6
     {
         static void Main(string[] args)
         {
-            
+            bool cicle = true;
+            while (cicle)
+            {
+                cicle = InsuranceManagment.Menu();
+            }
         }
     }
 }
